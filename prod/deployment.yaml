@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: <todo>
+        image: gcr.io/qwiklabs-gcp-03-a43e64465552/sample-app:v1.0
         ports:
         - containerPort: 8080
